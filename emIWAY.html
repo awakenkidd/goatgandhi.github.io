@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>G.O.A.T. Gandhi 😝</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to top right, #fff5cc, #e0ffe0);
+      color: #5c3c92;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5em;
+      color: #2e8b57;
+      text-shadow: 1px 1px 2px #ccc;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 0 1em;
+      max-width: 600px;
+      color: #333;
+    }
+
+    .surprise {
+      margin-top: 2em;
+      font-size: 1.5rem;
+      background: #e6e6fa;
+      padding: 10px 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .surprise:hover {
+      background: #d8bfd8;
+      color: #077b8a;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .spotify-embed {
+      margin-top: 2em;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    img {
+      margin-top: 30px;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .emoji {
+      position: fixed;
+      bottom: -50px;
+      font-size: 2rem;
+      z-index: 9999;
+      pointer-events: none;
+      user-select: none;
+      animation: rise linear infinite;
+    }
+
+    @keyframes rise {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    .cartoon-container {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      max-width: 100px;
+    }
+
+    .cartoon-container img {
+      width: 100%;
+      height: auto;
+      animation: floaty 3s ease-in-out infinite;
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>G.O.A.T. Gandhi 😝</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(to top right, #fff5cc, #e0ffe0);
+      color: #5c3c92;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      overflow-x: hidden;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5em;
+      color: #2e8b57;
+      text-shadow: 1px 1px 2px #ccc;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 0 1em;
+      max-width: 600px;
+      color: #333;
+    }
+
+    .surprise {
+      margin-top: 2em;
+      font-size: 1.5rem;
+      background: #e6e6fa;
+      padding: 10px 20px;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .surprise:hover {
+      background: #d8bfd8;
+      color: #077b8a;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .spotify-embed {
+      margin-top: 2em;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    img {
+      margin-top: 30px;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    }
+
+    .emoji {
+      position: fixed;
+      bottom: -50px;
+      font-size: 2rem;
+      z-index: 9999;
+      pointer-events: none;
+      user-select: none;
+      animation: rise linear infinite;
+    }
+
+    @keyframes rise {
+      0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-100vh) rotate(360deg);
+        opacity: 0;
+      }
+    }
+
+    /* Cartoon Styles - All Four Corners */
+    .cartoon {
+      position: fixed;
+      width: 200px;
+      height: auto;
+      border-radius: 40px;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+      animation: floaty 4s ease-in-out infinite;
+      z-index: 5;
+    }
+
+    .top-left {
+      top: 40px;
+      left: 40px;
+    }
+
+    .top-right {
+      top: 40px;
+      right: 40px;
+    }
+
+    .bottom-left {
+      bottom: 40px;
+      left: 40px;
+    }
+
+    .bottom-right {
+      bottom: 40px;
+      right: 40px;
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+  </style>
+</head>
+<body>
+  <h1>B'Day G.O.A.T. Gandhi ⛅</h1>
+  <p>
+    Celebrating the legacy of a true icon whose Notes and bullets continue to inspire the world.
+  </p>
+
+  <div class="surprise" id="surpriseBtn">GODSE🔫</div>
+
+  <div class="surprise hidden" id="surpriseMsg">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3sqRODOZ1Z6hR4F2tnFAlg?utm_source=generator"
+      width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"></iframe>
+
+    <img src="https://pbs.twimg.com/media/GJRiIqwXUAAs3dZ.jpg" alt="OIL UP" />
+  </div>
+
+  <!-- Cartoon Memes on All 4 Corners -->
+  <img class="cartoon top-left" src="https://humornama.com/wp-content/uploads/2021/10/Gandhiji-Birthday-Meme-on-2nd-October.jpg" alt="Funny Gandhi Meme Top Left" />
+  <img class="cartoon top-right" src="https://media.tenor.com/NHMtnjy7MTYAAAAe/gandhi-gandhiji.png" alt="Funny Gandhi Meme Top Right" />
+  <img class="cartoon bottom-left" src="https://preview.redd.it/drop-your-best-mahatma-gandhi-memes-v0-ki3hu93wgmoe1.png?auto=webp&s=b4fa7f7a2c485d50fc547cdb942b9b257ab36264" alt="Funny Gandhi Meme Bottom Left" />
+  <img class="cartoon bottom-right" src="https://preview.redd.it/drop-your-best-gandhi-meme-quotes-here-v0-3ps76cw8kwoe1.png?width=1080&auto=webp&s=00527a54c3c4551a9652a9711cff47725047c7d7" alt="Funny Gandhi Meme Bottom Right" />
+
+  <script>
+    const btn = document.getElementById('surpriseBtn');
+    const msg = document.getElementById('surpriseMsg');
+
+    btn.addEventListener('click', () => {
+      btn.classList.add('hidden');
+      msg.classList.remove('hidden');
+    });
+
+    function createEmoji() {
+      const emoji = document.createElement('div');
+      emoji.classList.add('emoji');
+      emoji.style.left = Math.random() * 100 + 'vw';
+      emoji.style.animationDuration = (2 + Math.random() * 3) + 's';
+      emoji.innerText = '💦';
+      document.body.appendChild(emoji);
+
+      setTimeout(() => {
+        emoji.remove();
+      }, 5000);
+    }
+
+    setInterval(createEmoji, 300);
+  </script>
+</body>
+</html>
